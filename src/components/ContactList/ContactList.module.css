@@ -1,0 +1,32 @@
+.ContactList-item {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 0;
+  justify-content: space-between;
+  box-shadow: 5px 5px 10px 5px dodgerblue;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.ContactList-item:hover,
+.ContactList-item:focus {
+  box-shadow: 5px 5px 10px 5px deeppink;
+}
+
+.ContactList-text {
+  font-weight: 500;
+  margin: 0;
+  padding: 5px;
+}
+
+.ContactList-delete {
+  padding: 5px;
+  background-color: deeppink;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.ContactList-delete:hover,
+.ContactList-delete:focus {
+  background-color: rgb(40, 215, 54);
+  color: rgb(37, 11, 230);
+}

@@ -1,0 +1,20 @@
+.filter {
+  outline: none;
+  display: inline-grid;
+  margin-bottom: 30px;
+}
+
+.filter-text {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.input {
+  border-block-color: inherit;
+  outline: none;
+  text-align: center;
+}
+.input:hover,
+.input:focus {
+  box-shadow: 5px 5px 5px 5px deeppink;
+}
